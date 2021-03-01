@@ -18,7 +18,7 @@ namespace Snake
 			Console.ForegroundColor = ConsoleColor.Red;
 			Console.SetCursorPosition(xOffset, yOffset++);
 			WriteText("============================", xOffset, yOffset++);
-			WriteText("		     GAME OVER         ", xOffset + 1, yOffset++);
+			WriteText("        GAME OVER", xOffset + 1, yOffset++);
 			WriteText("============================", xOffset, yOffset++);
 			Params settings = new Params();
 			Sounds sound2 = new Sounds(settings.GetResourceFolder());
